@@ -16,3 +16,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#main-title {
+  color: #D8BD00;
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  font-size: 4rem
+}
