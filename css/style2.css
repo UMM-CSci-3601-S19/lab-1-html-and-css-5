@@ -23,3 +23,16 @@ body {
   text-align: center;
   font-size: 4rem
 }
+
+@media screen and (min-width: 925px) {
+  .pslo-courses-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 53em;
+  }
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
+}
