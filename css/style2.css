@@ -34,5 +34,32 @@ body {
 
 h2 {
   font-family: 'Orbitron', sans-serif;
+  color: #D8BD00;
+}
+
+.faculty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px solid;
+  margin: 10px;
+  max-width: 48em;
+}
+
+#courses {
+  background-color: #35373A;
+  font-family: 'Play', sans-serif;
+  color: #ffffff;
+}
+
+#pslo {
+  background-color: #35373A;
+  font-family: 'Play', sans-serif;
   color: #ffffff;
 }
