@@ -78,3 +78,33 @@ h2 {
   display: inline-block;
   padding: 30px;
 }
+
+h6 {
+  font-family: 'Orbitron', sans-serif;
+  color: #D8BD00;
+  font-size: 150%;
+  margin: 0;
+}
+
+#validation p a {
+  color:#D8BD00;
+  text-decoration: none;
+}
+
+#validation li a {
+  font-family: 'Orbitron', sans-serif;
+  color:#D8BD00;
+  text-decoration: none;
+}
+
+.card {
+  background-color: #35373A;
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px solid;
+  margin: 10px;
+  max-width: 48em;
+  color: #ffffff;
+  font-family: 'Play', sans-serif;
+}
+
