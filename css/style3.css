@@ -13,7 +13,7 @@ body{
   display: flex;
   flex-direction: row;
   color: forestgreen;
-  font-family: VT323, sans-serif;
+  font-family: 'VT323', sans-serif;
 }
 
 @media screen and (max-width:1200px){
@@ -41,7 +41,6 @@ body{
   }
 
 }
-
 
 #main-title {
   position: fixed;
@@ -104,10 +103,37 @@ img.pic {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
+  font-size: 120%;
 }
 
 .faculty-container{
   padding-left: 10px;
+}
+
+
+h6 {
+  font-size:1.25em;
+  margin:20px 0;
+}
+
+#faculty{
+  font-size: 120%;
+}
+
+#validation{
+  font-size: 120%;
+}
+
+
+#validation p a {
+  color: darkorange;
+  text-decoration: none;
+}
+
+
+#validation li a {
+  color:darkorange;
+  text-decoration: none;
 }
 
 
