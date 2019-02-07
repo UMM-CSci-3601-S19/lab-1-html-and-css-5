@@ -6,15 +6,20 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
+
+/* Rule #1: Changed Flex Direction to row-reverse and added row wrapping
+            to change the layout of the containers in the body.*/
 body {
   padding: 30px;
   background-color: #910000;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
+/* Rule #2: One of many, but we changed the font styles of our text.*/
 #main-title {
   color: #D8BD00;
   font-family: 'Major Mono Display', monospace;
@@ -24,11 +29,11 @@ body {
 @media screen and (min-width: 925px) {
   .pslo-courses-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 53em;
   }
 }
-
+/* Rule #3: Title font size changes when the screen size is smaller so that it properly fits the screen.*/
 @media screen and (max-width: 400px){
   #main-title{
     font-size: 3rem;
@@ -124,7 +129,7 @@ img.pic {
 #style li a:hover {
   background-color: #D8BD00;
 }
-
+/* Rule #4: Altered the location and design of the style transition buttons, above and below is relevant.*/
 #style {
   position: fixed;
   font-family: 'VT323', sans-serif;
@@ -143,7 +148,7 @@ h6 {
   font-size: 150%;
   margin: 0;
 }
-
+/* Rule #5: Removed the text decoration and changed the color specifically of the links to stand out.*/
 #validation p a {
   color:#D8BD00;
   text-decoration: none;

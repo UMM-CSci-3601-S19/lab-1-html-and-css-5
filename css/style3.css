@@ -16,12 +16,18 @@ body{
   font-family: 'VT323', sans-serif;
 }
 
+/* Rule #1: Set up 3 different screen size changes to make sure that the information was readable on different devices.*/
 @media screen and (max-width:1200px){
   body{
     display: flex;
     flex-direction: column;
   }
+}
 
+@media screen and (min-width:400px) {
+  .section {
+    border-left: medium double forestgreen;
+  }
 }
 
 @media screen and (max-height:825px){
@@ -42,6 +48,7 @@ body{
 
 }
 
+/* Rule #2: Rotated the title to be along the side of the screen.*/
 #main-title {
   position: fixed;
   font-family: Orbitron, sans-serif;
@@ -136,4 +143,37 @@ h6 {
   text-decoration: none;
 }
 
+/* Rule #3: Gives highlight effect by changing background color and text color of pslo goals and courses */
+.pslo:hover{
+  background-color: forestgreen;
+  color: white;
+}
 
+#courses ul li:hover{
+  background-color: forestgreen;
+  color: white;
+}
+
+/* Rule #4: Added a feature that when the faculty member's name is hovered over the office number displays below it */
+.name {
+  font-size: 2rem;
+}
+
+.office{
+  visibility: hidden;
+}
+
+.name:hover + .office {
+  visibility: visible;
+}
+
+/* Rule #5: Added a border between the sections/ on each section and added another media screen to add one to the
+            left side when the screen gets bigger than 400 pixels */
+
+.section {
+  border-bottom: medium double forestgreen;
+}
+
+h2 {
+  padding-left: 5px;
+}
